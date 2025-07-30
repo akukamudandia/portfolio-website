@@ -1,49 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Company Profile</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <title>Portofolio Akukamudandia</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #4caf50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-  <!-- Navbar -->
-  <nav>
+  <header>
+    <h1>Halo, Saya Akukamudandia</h1>
+    <p>Selamat datang di website portofolio saya</p>
+  </header>
+
+  <section>
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah seorang web developer yang antusias dengan teknologi dan desain modern.</p>
+  </section>
+
+  <section>
+    <h2>Proyek Saya</h2>
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#profile">Our Profile</a></li>
-      <li><a href="#contact">Message Us</a></li>
+      <li>Website Toko Online</li>
+      <li>Aplikasi Todo List</li>
+      <li>Landing Page Event</li>
     </ul>
-  </nav>
-
-  <!-- Home Section -->
-  <section id="home">
-    <h1>Hi, <span id="name-placeholder">Name</span>!</h1>
   </section>
 
-  <!-- Our Profile Section -->
-  <section id="profile">
-    <h2>About the Company</h2>
-    <p>We are a tech company focused on innovation.</p>
-    <h3>Vision</h3>
-    <p>To become a global leader in software solutions.</p>
-    <h3>Mission</h3>
-    <p>Delivering reliable, high-quality products through collaboration and creativity.</p>
+  <section>
+    <h2>Kontak</h2>
+    <p>Email: akukamudandia@example.com</p>
+    <p>GitHub: <a href="https://github.com/akukamudandia" target="_blank">akukamudandia</a></p>
   </section>
 
-  <!-- Message Us Section -->
-  <section id="contact">
-    <h2>Message Us</h2>
-    <form id="contactForm">
-      <label>Name: <input type="text" id="name" required /></label><br />
-      <label>Email: <input type="email" id="email" required /></label><br />
-      <label>Phone: <input type="tel" id="phone" required /></label><br />
-      <label>Message: <textarea id="message" required></textarea></label><br />
-      <button type="submit">Submit</button>
-    </form>
-    <div id="formResult"></div>
-  </section>
-
-  <script src="js/script.js"></script>
+  <footer>
+    &copy; 2025 Akukamudandia. All rights reserved.
+  </footer>
 </body>
 </html>
